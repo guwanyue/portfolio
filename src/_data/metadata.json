@@ -1,8 +1,8 @@
 {
-  "title": "Yetty",
-  "url": "https://yetty.netlify.app",
-  "description": "Yet another Eleventy starter kit for my (& your) new projects with accessibility and performance in mind.",
-  "repo": "https://github.com/ygoex/yetty",
+  "title": "guwanyue zhang",
+  "url": "https://guwanyue.netlify.app",
+  "description": "Guwanyue Zhang's Personal Website",
+  "repo": "https://github.com/guwanyue/portfolio",
   "feed": {
     "subtitle": "Yet another Eleventy starter kit for my (& your) new projects with accessibility and performance in mind.",
     "filename": "feed.xml",

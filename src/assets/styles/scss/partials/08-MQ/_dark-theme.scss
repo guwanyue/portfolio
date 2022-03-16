@@ -39,15 +39,15 @@
 
   .gradient-home {
     background-image: url("/assets/images/mesh-gradient-black.webp");
-    background-repeat: no-repeat;
-    background-size: contain;
+    //background-repeat: no-repeat;
+    background-size: cover;
   }
 
   /*! purgecss ignore */
   .no-webp .gradient-home {
     background-image: url("/assets/images/mesh-gradient-black.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
+    //background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .light-theme {
@@ -90,14 +90,14 @@
 
   .gradient-home.light-theme {
     background-image: url("/assets/images/mesh-gradient-white.webp");
-    background-repeat: no-repeat;
-    background-size: contain;
+    //background-repeat: no-repeat;
+    background-size: cover;
   }
 
   /*! purgecss ignore */
   .no-webp .gradient-home.light-theme {
     background-image: url("/assets/images/mesh-gradient-white.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
+    //background-repeat: no-repeat;
+    background-size: cover;
   }
 }
