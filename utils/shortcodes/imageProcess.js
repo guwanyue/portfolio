@@ -1,7 +1,7 @@
 const path = require("path");
 const Image = require("@11ty/eleventy-img");
 const developmentFormats = ["jpeg"];
-const productionFormats = ["avif", "webp", "jpeg"];
+const productionFormats = ["jpeg"];
 
 async function imageShortcode(src, alt, sizes = '100vw', pictureClass, cssClass, bannerBorderColor = 'transparent', caption) {
   if(alt === undefined) {

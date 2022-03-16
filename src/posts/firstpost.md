@@ -12,7 +12,7 @@ pictureClass: grid-column-full
 imgClass: img-full
 imgBorderColor: '#a689ab'
 layout: layouts/post.njk
-css_library: /assets/styles/main.css
+css_library: /assets/styles/one-column-prism-base16-monokai.dark.css
 ---
 
 I like to explore different materials. Expanding foam is a difficult material to control, like cream on dessert, but its randomness makes it a lot of fun.
