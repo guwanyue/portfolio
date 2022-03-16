@@ -1,7 +1,7 @@
 ---
 layout: layouts/home.njk
 title: About
-imgUrl: https://source.unsplash.com/2k3sPaLibbw/
+imgUrl: https://raw.githubusercontent.com/guwanyue/portfolio/main/banner.png
 imgAlt: Abstract black and white photograph of a person in a mountain.
 imgSize: '(min-width: 30em) 50vw, 100vw'
 pictureClass: grid-column-full
