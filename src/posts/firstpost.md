@@ -6,12 +6,6 @@ tags:
   - Jewelry
   - Accessories
   - Contemporary Jewelry
-imgUrl: ./src/assets/images/sweet/IMG_0051_1.jpg
-imgAlt: Dessert is freedom
-imgSize: '(min-width: 30em) 50vw, 100vw'
-pictureClass: grid-column-full
-imgClass: img-full
-imgBorderColor: '#a689ab'
 layout: layouts/post.njk
 css_library: /assets/styles/prism-base16-monokai.dark.css
 ---
