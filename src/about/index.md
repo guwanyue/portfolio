@@ -23,16 +23,16 @@ HanYang University,South Korea
 *Bachelor of Fine Art - Jewelry and Fashion Design, 2020*
 
 **Exhibitions**
-+ Untitled:Unknown Quantity,Graduation exhibition,South Korea, 2019
-+ WIP Show, Royal College of Art, London, UK, 2022
+● Untitled:Unknown Quantity,Graduation exhibition,South Korea, 2019
+● WIP Show, Royal College of Art, London, UK, 2022
 
 **Awards**
-· Rising Star Fashion Designer Competition finals, Accessory Design, 2020
-· Outstanding Undergraduate, Hanyang University, 2020
-* Honour of Excellent Designer in the 17th International Jewelry Design Context, 2018
-Hanyang University Scholarship for Excellent Foreign Student, 2016-2019
+● Rising Star Fashion Designer Competition finals, Accessory Design, 2020
+● Outstanding Undergraduate, Hanyang University, 2020
+● Honour of Excellent Designer in the 17th International Jewelry Design Context, 2018
+● Hanyang University Scholarship for Excellent Foreign Student, 2016-2019
 
 **Contact**
-1. Instagram: [guwanyue.z](https://www.instagram.com/guwanyue.z/)
-+ LinkedIn: [Guwanyue Zhang](https://www.linkedin.com/in/guwanyue-zhang-0b840022b/)
-+ Email: 256124@network.rca.ac.uk
+● Instagram: [guwanyue.z](https://www.instagram.com/guwanyue.z/)
+● LinkedIn: [Guwanyue Zhang](https://www.linkedin.com/in/guwanyue-zhang-0b840022b/)
+● Email: 256124@network.rca.ac.uk
