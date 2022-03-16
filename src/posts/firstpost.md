@@ -1,12 +1,10 @@
 ---
 title: Make it sweet
 subtitle: "Dessert is freedom"
-date: 2018
-description:
+date: 2018-11-13
 tags:
   - Jewelry
   - Accessories
-  - Contemporary Jewelry
 imgUrl: ./src/assets/images/sweet/IMG_0051_1.jpg
 imgAlt: Dessert is freedom
 imgSize: '(min-width: 30em) 50vw, 100vw'
