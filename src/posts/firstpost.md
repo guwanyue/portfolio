@@ -1,7 +1,8 @@
 ---
 title: Make it sweet
 subtitle: "Dessert is freedom"
-date: 2018
+date: 2018-09-30
+description:
 tags:
   - Jewelry
   - Accessories
