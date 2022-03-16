@@ -12,7 +12,7 @@ eleventyNavigation:
   key: About
   order: 2
 ---
-{% extends 'layouts/home.njk' %}
+
 {% imageMd imgUrl, imgAlt, imgSize, pictureClass, imgClass, imgBorderColor %}
 
 **Education**
