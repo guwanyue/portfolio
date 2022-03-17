@@ -9,7 +9,7 @@ async function imageShortcode(src, alt, sizes = '100vw', pictureClass, cssClass,
     throw new Error(`Missing \`alt\` on responsiveimage from: ${src}`)
   }
   let metadata = await Image(src, {
-    widths: [1920],
+    widths: [2400],
     /**
      * The eleventy-img plugin takes a while to work,
      * so let's skip all that image processing in development.

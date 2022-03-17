@@ -14,8 +14,10 @@
 }
 
 .post__content {
-  max-width: var(--line-length);
-
+  max-width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
   > p:first-child::first-letter {
     margin-right: var(--space-sm-6);
     padding: var(--space-sm-2);
