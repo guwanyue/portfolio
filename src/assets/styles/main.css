@@ -800,9 +800,9 @@ header {
 .post__content {
   max-width: var(--line-length); }
   .post__content > p:first-child::first-letter {
-    margin-right: var(--space-sm-6);
+    margin-right: var(--space-0);
     padding: var(--space-sm-2);
-    float: none;
+    float: left;
     font-size: 300%;
     font-weight: bold;
     line-height: 1; }
