@@ -69,7 +69,7 @@
   --space-lg-4: 4rem;
   --space-lg-5: 5rem;
   --transition-default: all 0.2s ease;
-  --line-length: 70ch;
+  --line-length: 57ch;
   --w-breakpoint-xs: 36rem;
   --w-breakpoint-sm: 48rem;
   --w-breakpoint-md: 60rem; }
@@ -800,11 +800,9 @@ header {
 .post__content {
   max-width: var(--line-length); }
   .post__content > p:first-child::first-letter {
-    /*margin-right: var(--space-sm-6);*/
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: var(--space-sm-6);
     padding: var(--space-sm-2);
-    float: right;
+    float: left;
     font-size: 300%;
     font-weight: bold;
     line-height: 1; }
