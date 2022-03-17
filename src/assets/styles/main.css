@@ -802,7 +802,7 @@ header {
   .post__content > p:first-child::first-letter {
     margin-right: var(--space-sm-6);
     padding: var(--space-sm-2);
-    float: left;
+    float: none;
     font-size: 300%;
     font-weight: bold;
     line-height: 1; }
