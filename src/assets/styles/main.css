@@ -69,7 +69,7 @@
   --space-lg-4: 4rem;
   --space-lg-5: 5rem;
   --transition-default: all 0.2s ease;
-  --line-length: 57ch;
+  --line-length: 80ch;
   --w-breakpoint-xs: 36rem;
   --w-breakpoint-sm: 48rem;
   --w-breakpoint-md: 60rem; }
@@ -93,8 +93,7 @@
       grid-template-columns: minmax(var(--space-lg-1h), 1fr) minmax(auto, var(--w-breakpoint-md)) minmax(var(--space-lg-1h), 1fr); } }
 
 p, .grid > *:not(figure):not(.hero), .tmpl-post article > *:not(figure):not(.hero), .grid-column-center {
-  grid-column: 2 / auto;
-  max-width: 70vw; }
+  grid-column: 2 / auto; }
 
 .hero, .grid-column-full {
   grid-column: 1 / 4; }
