@@ -41,7 +41,7 @@ async function imageShortcode(src, alt, sizes = '100vw', pictureClass, cssClass,
   }
   })
   //Take the smaller image to be used in the img tag
-  let lowsrc = metadata.jpeg[1];
+  let lowsrc = metadata.jpeg[0];
 
   return `<figure class="${pictureClass}" style="--banner-border-color: ${bannerBorderColor}"><picture>
   ${Object.values(metadata).map(imageFormat => {
