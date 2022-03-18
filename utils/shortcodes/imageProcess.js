@@ -9,7 +9,7 @@ async function imageShortcode(src, alt, sizes = '100vw', pictureClass, cssClass,
     throw new Error(`Missing \`alt\` on responsiveimage from: ${src}`)
   }
   let metadata = await Image(src, {
-    widths: [3600],
+    widths: [480, 3600],
     /**
      * The eleventy-img plugin takes a while to work,
      * so let's skip all that image processing in development.
@@ -41,7 +41,7 @@ async function imageShortcode(src, alt, sizes = '100vw', pictureClass, cssClass,
   }
   })
   //Take the smaller image to be used in the img tag
-  let lowsrc = metadata.jpeg[0];
+  let lowsrc = metadata.jpeg[1];
 
   return `<figure class="${pictureClass}" style="--banner-border-color: ${bannerBorderColor}"><picture>
   ${Object.values(metadata).map(imageFormat => {
