@@ -21,12 +21,11 @@ eleventyNavigation:
 {% imageNjk imgUrl, imgAlt, imgSize, pictureClass, imgClass, imgBorderColor %}
 
 <style>
-<!--
-a:link {color:black; text-decoration:underline}
-a:visited {color:black; text-decoration:underline}
-a:hover {color:red; text-decoration:underline}
-a:active {color:green; text-decoration:underline}
--->
+
+a:link.a {color:black; text-decoration:underline}
+a:visited.a {color:black; text-decoration:underline}
+a:hover.a {color:red; text-decoration:underline}
+a:active.a {color:green; text-decoration:underline}
 ul.a {list-style-type: disc;}
 p.a {margin-bottom: 0;}
 h4.a {margin-bottom: 0.2em;
@@ -60,9 +59,9 @@ h4.a {margin-bottom: 0.2em;
 
 <h4 class="a">Contact</h4>
 <ul class="a">
-<li> Instagram: <a href="https://www.instagram.com/guwanyue.z/" target="_blank"> guwanyue.z </a> </li>
-<li> LinkedIn: <a href="https://www.linkedin.com/in/guwanyue-zhang-0b840022b/" target="_blank"> Guwanyue Zhang </li>
-<li> Email: <a href="mailto:256124@network.rca.ac.uk" target="_blank"> 256124@network.rca.ac.uk </li>
+<li> Instagram: <a class="a" href="https://www.instagram.com/guwanyue.z/" target="_blank"> guwanyue.z </a> </li>
+<li> LinkedIn: <a class="a" href="https://www.linkedin.com/in/guwanyue-zhang-0b840022b/" target="_blank"> Guwanyue Zhang </li>
+<li> Email: <a class="a" href="mailto:256124@network.rca.ac.uk" target="_blank"> 256124@network.rca.ac.uk </li>
 </ul>
 
 {% endblock %}
