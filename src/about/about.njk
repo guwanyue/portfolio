@@ -13,31 +13,36 @@ eleventyNavigation:
 
 {% extends 'layouts/home.njk' %}
 
-{% if bodyClass is not defined %}
-  {% set bodyClass = 'gradient-home' %}
-{% endif %}
-
 {% block content %}
+  <div class="blog-heading-tags">
+    <h1>{{ title }}</h1>
+  </div>
+
+{% imageNjk imgUrl, imgAlt, imgSize, pictureClass, imgClass, imgBorderColor %}
+
+<style>
+ul.a {list-style-type: disc;}
+</style>
+
 <p>
-<h3>Education</h3><br>
+<h4>Education</h4>
 Royal College of Art, London, United Kingdom<br>
 <i>Master of Arts - Soft system Textiles, July 2022</i><br>
-
 HanYang University,South Korea<br>
-<i>Bachelor of Fine Art - Jewelry and Fashion Design, 2020</i>
+<i>Bachelor of Fine Art - Jewelry and Fashion Design, 2020</i><br>
 </p>
 
 <p>
 <b>Exhibitions</b><br>
-<ul>
+<ul class="a">
 <li> Untitled:Unknown Quantity,Graduation exhibition,South Korea, 2019</li>
 <li> WIP Show, Royal College of Art, London, UK, 2022</li>
 </ul>
 </p>
 
 <p>
-**Awards**
-<ul>
+<b>Awards</b>
+<ul class="a">
 <li> Rising Star Fashion Designer Competition finals, Accessory Design, 2020 </li>
 <li> Outstanding Undergraduate, Hanyang University, 2020 </li>
 <li> Honour of Excellent Designer in the 17th International Jewelry Design Context, 2018 </li>
@@ -47,7 +52,7 @@ HanYang University,South Korea<br>
 
 <p>
 <b>Contact</b>
-<ul>
+<ul class="a">
 <li> Instagram: <a href="https://www.instagram.com/guwanyue.z/" target="_blank"> guwanyue.z </a> </li>
 <li> LinkedIn: <a href="https://www.linkedin.com/in/guwanyue-zhang-0b840022b/" target="_blank"> Guwanyue Zhang </li>
 <li> Email: 256124@network.rca.ac.uk </li>
