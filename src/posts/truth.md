@@ -5,7 +5,7 @@ date: 2021-04-08
 tags:
   - knit
   - Personality
-imgUrl: ./src/assets/images/truth/2784.jpg
+imgUrl: ./src/assets/images/truth/2748.jpg
 imgAlt: Dessert is freedom
 imgSize: '(min-width: 30em) 50vw, 100vw'
 pictureClass: grid-column-full
