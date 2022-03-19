@@ -29,6 +29,6 @@ invisible to the naked eyes.
 {% imageMd "./src/assets/images/illusion/3.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
 {% imageMd "./src/assets/images/illusion/4.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
 {% imageMd "./src/assets/images/illusion/5.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
-{% imageMd "./src/assets/images/soul/6.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
-{% imageMd "./src/assets/images/soul/7.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
-% imageMd "./src/assets/images/soul/8.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
+{% imageMd "./src/assets/images/illusion/6.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
+{% imageMd "./src/assets/images/illusion/7.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
+% imageMd "./src/assets/images/illusion/8.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
