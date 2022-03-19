@@ -1,6 +1,5 @@
 ---
 title: Soul Flower
-subtitle:
 date: 2019-06-05
 tags:
   - Fashion

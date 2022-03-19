@@ -1,6 +1,5 @@
 ---
 title:Under the peel
-subtitle:
 date: 2019-11-28
 tags:
   - Bio-Textile

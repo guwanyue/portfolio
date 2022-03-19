@@ -1,6 +1,5 @@
 ---
 title: The beauty of your body
-subtitle:
 date: 2019-06-25
 tags:
   - Body
