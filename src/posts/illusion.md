@@ -5,7 +5,7 @@ date: 2020-02-01
 tags:
   - Fashion
   - Print Design
-imgUrl: ./src/assets/images/illusion/b.jpg
+imgUrl: ./src/assets/images/illusion/b.png
 imgAlt: Dessert is freedom
 imgSize: '(min-width: 30em) 50vw, 100vw'
 pictureClass: grid-column-full
@@ -26,9 +26,9 @@ It is not what we hate, is what we love.
 The attraction of bad matter to people is
 invisible to the naked eyes.
 
-{% imageMd "./src/assets/images/illusion/3.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
-{% imageMd "./src/assets/images/illusion/4.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
-{% imageMd "./src/assets/images/illusion/5.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
-{% imageMd "./src/assets/images/illusion/6.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
-{% imageMd "./src/assets/images/illusion/7.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
-% imageMd "./src/assets/images/illusion/8.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
+{% imageMd "./src/assets/images/illusion/3.png", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
+{% imageMd "./src/assets/images/illusion/4.png", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
+{% imageMd "./src/assets/images/illusion/5.png", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
+{% imageMd "./src/assets/images/illusion/6.png", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
+{% imageMd "./src/assets/images/illusion/7.png", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
+{% imageMd "./src/assets/images/illusion/8.png", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
