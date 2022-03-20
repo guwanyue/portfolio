@@ -3,10 +3,12 @@ const path = require("path");
 module.exports = function imgSize(src, size = '3600', format = 'jpeg') {
   const extension = path.extname(src);
   const name = path.basename(src, extension);
+  const work = path.basename(path.dirname(src));
+  const name_ = path.join(work, name)
   /**
    * A path directory for the <img src> attribute
    * e.g. /img/ for <img src="/img/MY_IMAGE.jpeg">
    */
   const dirname = "/assets/images/";
-  return `${dirname}${name}-${size}.${format}`;
+  return `${dirname}${name_}.${format}`;
 };
