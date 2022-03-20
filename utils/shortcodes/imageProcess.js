@@ -39,7 +39,7 @@ async function imageShortcode(src, alt, sizes = '100vw', pictureClass, cssClass,
     const dirname = path.basename(path.dirname(src));
     const name = path.basename(src, extension);
     const name_ = path.join(dirname, name);
-    return `${name}-${width}.${format}`;
+    return `${name_}-${width}.${format}`;
   }
   })
   //Take the smaller image to be used in the img tag
