@@ -20,7 +20,15 @@ This series focuses on resource recycling and sustainable development. I recycle
 {% imageMd "./src/assets/images/peel/2.png", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
 {% imageMd "./src/assets/images/peel/1.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
 {% imageMd "./src/assets/images/peel/f4.png", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
+
+<h3 style="text-align:center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Nry3ojMXm9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</h3>
+
 {% imageMd "./src/assets/images/peel/3.png", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
+
+This material can be made into clothes and bags.
 {% imageMd "./src/assets/images/peel/8.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
 {% imageMd "./src/assets/images/peel/4.png", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
+
+
