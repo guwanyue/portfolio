@@ -1,7 +1,7 @@
 const path = require("path");
 const Image = require("@11ty/eleventy-img");
 const developmentFormats = ["jpeg"];
-const productionFormats = ["avif"];
+const productionFormats = ["avif", "webp", "jpeg"];
 
 async function imageShortcode(src, alt, sizes = '100vw', pictureClass, cssClass, bannerBorderColor = 'transparent', caption) {
   if(alt === undefined) {
@@ -37,12 +37,8 @@ async function imageShortcode(src, alt, sizes = '100vw', pictureClass, cssClass,
     // options: set of options passed to the Image call
     const extension = path.extname(src);
     const dirname = path.basename(path.dirname(src));
-    console.log("DirName:")
-    console.log(dirname);
     const name = path.basename(src, extension);
     const name_ = path.join(dirname, name);
-    console.log(name_);
-    console.log(`${name_}-${width}.${format}`);
     return `${name_}-${width}.${format}`;
   }
   })
