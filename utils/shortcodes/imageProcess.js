@@ -39,16 +39,13 @@ async function imageShortcode(src, alt, sizes = '100vw', pictureClass, cssClass,
     const dirname = path.basename(path.dirname(src));
     const name = path.basename(src, extension);
     const name_ = path.join(dirname, name);
-    return `${name_}-${width}.${format}`;
+    return `${name}-${width}.${format}`;
   }
   })
   //Take the smaller image to be used in the img tag
   // console.log("Found out what the metadata.jpeg is: ");
   // console.log(metadata.jpeg);
   let lowsrc = metadata.jpeg[0];
-  // console.log("Lowsrc information: ");
-  // console.log(lowsrc);
-
   return `<figure class="${pictureClass}" style="--banner-border-color: ${bannerBorderColor}"><picture>
   ${Object.values(metadata).map(imageFormat => {
     return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`;
