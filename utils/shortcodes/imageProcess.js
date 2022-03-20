@@ -1,7 +1,7 @@
 const path = require("path");
 const Image = require("@11ty/eleventy-img");
 const developmentFormats = ["jpeg"];
-const productionFormats = ["avif"];
+const productionFormats = ["avif", "webp", "jpeg"];
 
 async function imageShortcode(src, alt, sizes = '100vw', pictureClass, cssClass, bannerBorderColor = 'transparent', caption) {
   if(alt === undefined) {
@@ -37,9 +37,7 @@ async function imageShortcode(src, alt, sizes = '100vw', pictureClass, cssClass,
     // options: set of options passed to the Image call
     const extension = path.extname(src);
     const name = path.basename(src, extension);
-    const work = path.basename(path.dirname(src));
-    const name_ = path.join(work, name);
-    return `${name_}-${width}.${format}`;
+    return `${name}-${width}.${format}`;
   }
   })
   //Take the smaller image to be used in the img tag
