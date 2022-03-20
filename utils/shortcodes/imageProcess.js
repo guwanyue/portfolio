@@ -38,9 +38,11 @@ async function imageShortcode(src, alt, sizes = '100vw', pictureClass, cssClass,
     const extension = path.extname(src);
     const dirname = path.basename(path.dirname(src));
     console.log("DirName:")
-    console.log(dirname)
+    console.log(dirname);
     const name = path.basename(src, extension);
-    const name_ = path.join(dirname, name)
+    const name_ = path.join(dirname, name);
+    console.log(name_);
+    console.log(`${name_}-${width}.${format}`);
     return `${name_}-${width}.${format}`;
   }
   })
