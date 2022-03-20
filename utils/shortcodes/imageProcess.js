@@ -1,7 +1,7 @@
 const path = require("path");
 const Image = require("@11ty/eleventy-img");
 const developmentFormats = ["jpeg"];
-const productionFormats = ["avif", "webp", "jpeg"];
+const productionFormats = ["avif"];
 
 async function imageShortcode(src, alt, sizes = '100vw', pictureClass, cssClass, bannerBorderColor = 'transparent', caption) {
   if(alt === undefined) {
@@ -9,7 +9,7 @@ async function imageShortcode(src, alt, sizes = '100vw', pictureClass, cssClass,
     throw new Error(`Missing \`alt\` on responsiveimage from: ${src}`)
   }
   let metadata = await Image(src, {
-    widths: [480, 960, 2800],
+    widths: [2800],
     /**
      * The eleventy-img plugin takes a while to work,
      * so let's skip all that image processing in development.
@@ -36,16 +36,20 @@ async function imageShortcode(src, alt, sizes = '100vw', pictureClass, cssClass,
     // format: current file format
     // options: set of options passed to the Image call
     const extension = path.extname(src);
+    const dirname = path.basename(path.dirname(src));
+    console.log("DirName:")
+    console.log(dirname)
     const name = path.basename(src, extension);
-    return `${name}-${width}.${format}`;
+    const name_ = path.join(dirname, name)
+    return `${name_}-${width}.${format}`;
   }
   })
   //Take the smaller image to be used in the img tag
-  console.log("Found out what the metadata.jpeg is: ");
-  console.log(metadata.jpeg);
+  // console.log("Found out what the metadata.jpeg is: ");
+  // console.log(metadata.jpeg);
   let lowsrc = metadata.jpeg[0];
-  console.log("Lowsrc information: ");
-  console.log(lowsrc);
+  // console.log("Lowsrc information: ");
+  // console.log(lowsrc);
 
   return `<figure class="${pictureClass}" style="--banner-border-color: ${bannerBorderColor}"><picture>
   ${Object.values(metadata).map(imageFormat => {
