@@ -1,7 +1,7 @@
 ---
 title: Beyond first bloom
 subtitle: “ ”
-date: 2022–03-22
+date: 2022-03-22
 tags:
   - Bio-Textile
   - Sustainable
