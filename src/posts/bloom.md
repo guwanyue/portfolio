@@ -34,11 +34,11 @@ I demonstrate that different colors can be extracted from recycled waste flowers
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=Oa-na7iFZmg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </h3>
 
-{% imageMd "./src/assets/images/bloom/gkfnkl.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
+{% imageMd "./src/assets/images/bloom/gkfnkl.png", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
 
 I leverage the natural dyes, extracted from waste plants, to make a kind of bio-textile. By recycling discarded flowers and turning them into environmentally friendly materials, flowers are freed from their artificial abstraction and transformed into a long-lasting material. Their original abstraction has been deconstructed and expanded into more realistic biological textiles from nature.
 
-{% imageMd "./src/assets/images/bloom/byb4.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
-{% imageMd "./src/assets/images/bloom/jhlk.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
+{% imageMd "./src/assets/images/bloom/byb4.png", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
+{% imageMd "./src/assets/images/bloom/jhlk.png", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
 {% imageMd "./src/assets/images/bloom/bfb6.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
 {% imageMd "./src/assets/images/bloom/2685.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
