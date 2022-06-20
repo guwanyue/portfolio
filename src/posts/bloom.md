@@ -1,6 +1,6 @@
 ---
 title: Beyond first bloom
-subtitle: “ ”
+subtitle: " "
 date: 2022-03-22
 tags:
   - Bio-Textile
@@ -26,13 +26,13 @@ I demonstrate that different colors can be extracted from recycled waste flowers
 
 {% imageMd "./src/assets/images/bloom/hj2.jpg", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
 
-<h3 style="text-align:center;">
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=lrnNt8gbCF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</h3>
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lrnNt8gbCF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 
-<h3 style="text-align:center;">
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=Oa-na7iFZmg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</h3>
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Oa-na7iFZmg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 
 {% imageMd "./src/assets/images/bloom/gkfnkl.png", " ", "(min-width: 30em) 50vw, 100vw", "grid-column-center", " ", " ", " " %}
 
