@@ -6,7 +6,7 @@ tags:
   - Bio-Textile
   - Sustainable
 imgUrl: ./src/assets/images/bloom/2687.jpg
-imgAlt:
+imgAlt: Dessert is freedom
 imgSize: '(min-width: 30em) 50vw, 100vw'
 pictureClass: grid-column-full
 imgClass: img-full
